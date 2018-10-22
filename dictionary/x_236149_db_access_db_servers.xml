@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci_server" label="DB Servers" max_length="40" name="x_236149_db_access_db_servers" type="collection"/>
+</database>
