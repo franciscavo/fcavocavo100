@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmdb_ci_db_instance" label="DB Instances" max_length="40" name="x_236149_db_access_db_instances" type="collection"/>
+    <element extends="cmdb_ci_db_instance" label="DB Instances" max_length="40" name="x_236149_db_access_db_instances" type="collection">
+        <element label="Server Name" mandatory="true" max_length="32" name="server_name" reference="x_236149_db_access_db_servers" type="reference"/>
+    </element>
 </database>
